@@ -5,7 +5,13 @@ class Person
     @id = Time.new.to_i
     @age = age
     @name = name
+    @parent_permission = parent_permission
   end
+
+  def is_of_age
+    @age >= 18
+  end
+
 
 
 end
