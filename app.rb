@@ -41,6 +41,10 @@ class App
   def create_teacher
     print "teacher's specialization: "
     specialization = gets.chomp
+    print "teacher's age: "
+    age = gets.chomp
+    print "teacher's name: "
+    name = gets.chomp
 
   end
 
