@@ -16,4 +16,9 @@ class App
     puts 'No book!' if @books.empty?
     @books.each { |book| puts "Title: #{book.title}, Author: #{book.author}" }
   end
+
+  def person_list
+    puts 'No person!' if @people.empty?
+    @people.each { |person| puts "[#{person.class}], Name: #{person.name}, Age: #{person.age}, Id: #{person.id}" }
+  end
 end
