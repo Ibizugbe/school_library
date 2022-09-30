@@ -28,6 +28,7 @@ class App
     print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
     option = gets.chomp
 
+    case option
     when '1'
       create_student
     when '2'
