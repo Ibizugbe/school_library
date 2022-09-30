@@ -50,4 +50,28 @@ class App
     @people.push(teacher)
   end
 
+  def create_student
+    print "students's age: "
+    age = gets.chomp
+
+    print "students's name: "
+    name = gets.chomp
+
+    print 'has parent permission? [Y/N]: '
+    parent_permission = gets.chomp.upcase
+
+    case parent_permission
+    when 'N'
+      student = Student.new(nil, age, name, parent_permission: false)
+      @people.push(student)
+    when 'Y'
+      student = Student.new(nil, age, name, parent_permission: true)
+      @people.push(student)
+    else
+      'You have entered an invalid input'
+    end
+
+    puts 'Student created successfully 😊'
+  end
+
 end
