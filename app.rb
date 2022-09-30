@@ -20,12 +20,12 @@ class App
   end
 
   def person_list
-    puts 'No person!' if @people.empty?
+    puts 'You have not registered any person' if @people.empty?
     @people.each { |person| puts "[#{person.class}], Name: #{person.name}, Age: #{person.age}, Id: #{person.id}" }
   end
 
   def create_person
-    print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
+    print 'enter (1) to create student or (2) to create teacher? [Input the number]: '
     option = gets.chomp
 
     case option
@@ -34,9 +34,9 @@ class App
     when '2'
       create_teacher
     else
-      'You have entered an invalid input'
+      'You have entered an invalid option'
     end
-    puts 'Person created successfully😊'  
+    puts 'You have successfully registered person!'
   end
 
   def create_teacher
@@ -47,7 +47,7 @@ class App
     print "teacher's name: "
     name = gets.chomp
     teacher = Teacher.new(specialization, age, name, parent_permission: true)
-    puts 'Teacher created successfully 😊'
+    puts 'You have successfully registered a teacher'
     @people.push(teacher)
   end
 
@@ -69,10 +69,10 @@ class App
       student = Student.new(nil, age, name, parent_permission: true)
       @people.push(student)
     else
-      'You have entered an invalid input'
+      'You have entered an invalid option'
     end
 
-    puts 'Student created successfully 😊'
+    puts 'you have successfully registered a student!'
   end
 
   def create_book
@@ -85,7 +85,7 @@ class App
     book = Book.new(title, author)
     @books.push(book)
 
-    puts 'Book created successfully 😊'
+    puts 'You have successfuly added a book!'
   end
 
   def create_rental
@@ -113,7 +113,7 @@ class App
       rental_item = Rental.new(selected_date, @people[selected_person], @books[selected_book])
       @rentals.push(rental_item)
 
-      puts 'Rental created successfully😊'
+      puts 'Rental was successful.'
     end
   end
 
@@ -127,5 +127,4 @@ class App
       end
     end
   end
-
 end
