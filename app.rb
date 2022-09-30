@@ -6,6 +6,8 @@ require_relative './book'
 require_relative './classroom'
 
 class App
+  attr_accessor :people, :books, :rentals, :classroom
+
   def initialize
     @people = []
     @books = []
@@ -21,4 +23,11 @@ class App
     puts 'No person!' if @people.empty?
     @people.each { |person| puts "[#{person.class}], Name: #{person.name}, Age: #{person.age}, Id: #{person.id}" }
   end
+
+  def create_person
+
+
+
+  end
+
 end
