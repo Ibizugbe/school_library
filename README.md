@@ -9,11 +9,17 @@
 - Ruby
 - Rubocop
 
+## Getting Started
+
+To get a local copy of this project, follow the instructions given below
+
+- if you don't have ruby installed on your computer, download it [here](https://www.ruby-lang.org/en/downloads/)
+
 ## Live Demo (if available)
 
 [No live demo yet](https://livedemo.com)
 
-## Authors
+## Author
 
 👤 **Ibizugbe Abraham**
 
