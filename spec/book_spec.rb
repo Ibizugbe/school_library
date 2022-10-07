@@ -1,7 +1,7 @@
 require_relative '../book'
 
 describe Book do
-  let(:book) { Book.new('Cashflow quadrant', 'Robert Kiyosaki') }
+  let(:book) { Book.new('Fabricated', 'Yokasimoto') }
 
   describe '#new' do
     it 'creates a new book' do
@@ -9,11 +9,11 @@ describe Book do
     end
 
     it 'has a title' do
-      expect(book.title).to eq('Cashflow quadrant')
+      expect(book.title).to eq('Fabricated')
     end
 
     it 'has an author' do
-      expect(book.author).to eq('Robert Kiyosaki')
+      expect(book.author).to eq('Yokasimoto')
     end
 
     it 'has no rentals' do
