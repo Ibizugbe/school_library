@@ -7,7 +7,7 @@ describe CapitalizeDecorator do
 
   describe '#correct_name' do
     it 'capitalizes the email' do
-      expect(capitalize.correct_name).to eq('johndoe@gmail.com')
+      expect(capitalize.correct_name).to eq('Johndoe@gmail.com')
     end
   end
 end
