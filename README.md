@@ -27,6 +27,12 @@ To get a local copy of this project, follow the instructions given below
 - Twitter: [@twitterhandle](https://twitter.com/abrahamibizugbe)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/abrahamibizugbe)
 
+👤 **Ackon Samuel**
+
+- GitHub: [@AckonSamuel](https://github.com/AckonSamuel/)
+- Twitter: [@AckonSamuel2](https://twitter.com/AckonSamuel2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/samuel-yaw-ackon/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
