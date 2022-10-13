@@ -2,7 +2,7 @@
 
 # School Library
 
-> This project utilizes OOP features in ruby to store information about a school library
+> This project utilizes OOP features in ruby to store information about a school library, add a new student or teacher, add new books, save records of people that have borrowed books and when the book was borrowed.
 
 ## Built With
 
